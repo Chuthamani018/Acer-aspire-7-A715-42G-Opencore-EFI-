@@ -1497,7 +1497,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 debug=0x100 alcid=1 nvme=-1</string>
+                    <string>-v keepsyms=1 debug=0x100 alcid=1 nvme=-1 agdpmod=pikera gfxrst=3</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1566,23 +1566,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>FVF0469024N00001H</string>
+                <string></string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>M6k6iVUO</data>
+                <data></data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro15,4</string>
+                <string></string>
                 <key>SystemSerialNumber</key>
-                <string>FVFDPJZAL40Y</string>
+                <string></string>
                 <key>SystemUUID</key>
-                <string>BC4307AD-2C34-4D9B-AFA1-E6FC67A81951</string>
+                <string></string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
