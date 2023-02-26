@@ -3,7 +3,7 @@
 #### Supports MacOS 11.6 >> Monterey 12.0 >> Ventura 13.0
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/adeelpm/Acer-Aspire-A515-54G-CPU-i5-8265u/main/Images/About_Mac.png" alt="Specs">
+  <img src="https://raw.githubusercontent.com/Chuthamani018/Acer-aspire-7-A715-42G-Opencore-EFI-/main/ScreenShot/Spec.png" alt="Specs">
 </p>
 
 ## Specs
