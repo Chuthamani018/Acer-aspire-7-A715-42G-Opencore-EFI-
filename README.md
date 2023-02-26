@@ -8,40 +8,33 @@
 
 ## Specs
 
-|Model|Acer Aspire 5 A515-54G-55E4|
+|Model|Acer-aspire-7-A715-42G|
 |---|---|
-|CPU|8th Gen i5-8265U|
-|GPU|intel UHD 620|
+|CPU|AMD Ryzen 5 5500U|
+|GPU|AMD Radeon(TM) Graphics|
 |SSD|512 GB NVME.m2|
 |RAM|8GB|
 |Ethernet|Realtek RTL|
-|Wifi Adapter|Intel AC-9560|
-|Bluetooth|Intel AC-9560|
+|Wifi Adapter|MediaTek Wi-Fi 6 MT7921 Wireless LAN Card|
+|Bluetooth|MediaTek Wi-Fi 6 MT7921 Wireless LAN Card|
 |Keyboard|ps2 keyboard|
 |Trackpad|I2C Elan 0504|
 
 ## Working Status
 
-- [x] Dual boot Windows 11 + MacOS Ventura
-- [x] Internal Audio and Headphone Jack
-- [x] iGPU (have disabled discrete GPU)
-- [x] Battery Management
+- [x] Dual boot Windows 10 + MacOS BigSur
 - [x] Ethernet
-- [x] Display Brightness and control with Keys
-- [x] Sleep
-- [x] Wifi + Bluetooth
 - [x] USB2.0 ports
-- [x] Webcam
-- [x] Trackpad with multi finger gestures 
-- [x] HDMI
-- [x] Native hotkey support with Fn keys
+- [x] Usb 3.0 + Type C
 
  ### Known Issues
 - Trackpad does not work with VoodooI2C kext but works with voodoops2(Place kext in correct order in config.plist)
 - Battery life is just half of what I get in windows 
+- SK Hyinx NVme Cause Kernel Panic on Mac OS
 
 ### Not Tested
-- [x] Usb 3.0 + Type C
+
+- [x] Webcam
 
 ## Installation 
 
@@ -60,14 +53,6 @@
 - Copy **ALL** the Contains of this Repo inside the EFI partition of SSD / Hard drive.
 - **[IMPORTANT]** Make sure to Generate system definitions of MacBook pro 15,4 in config.plist file using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) & add `SystemSerialNumber`, `SystemUUID` and `MLB`.
 
-### Post Installation
-- If you have Installed MacOS on SSD, Enable TRIM using following command:
-
-```sh
-
-$ sudo trimforce enable
-
-```
 
 
 <p align="center">
