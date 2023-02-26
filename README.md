@@ -16,7 +16,7 @@
 |RAM|8GB|
 |Ethernet|Realtek RTL|
 |Wifi Adapter|MediaTek Wi-Fi 6 MT7921 Wireless LAN Card|
-|Bluetooth|MediaTek Wi-Fi 6 MT7921 Wireless LAN Card|
+|Bluetooth|MediaTek Bluetooth MT7921|
 |Keyboard|ps2 keyboard|
 |Trackpad|I2C Elan 0504|
 
@@ -28,7 +28,6 @@
 - [x] Usb 3.0 + Type C
 
  ### Known Issues
-- Trackpad does not work with VoodooI2C kext but works with voodoops2(Place kext in correct order in config.plist)
 - Battery life is just half of what I get in windows 
 - SK Hyinx NVme Cause Kernel Panic on Mac OS
 
