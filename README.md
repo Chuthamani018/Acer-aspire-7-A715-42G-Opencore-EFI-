@@ -38,12 +38,8 @@
 ## Installation 
 
 ### BIOS Settings
-* *Security* → Set supervisor password (to disable secure boot)
-* *Security* → Password on boot → **Disable**
-* *Boot* → Secure Boot → **Disable**
-* *Boot* → Boot Mode → **UEFI**
-* *Main* → Lid Open resume → **Enabled**
-* *Advance settings* → CFG-Lock → **Disabled**
+
+- Will Put Soon
 
 ###  Basic Installation
 
