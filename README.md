@@ -1,4 +1,4 @@
-# Acer-
+# Acer-aspire-7-A715-42G-Opencore-EFI-
 
 #### Supports MacOS 11.6 >> Monterey 12.0 >> Ventura 13.0
 
